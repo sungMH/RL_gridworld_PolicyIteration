@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0d64e2d2-9040-4aa2-92ed-93feed16961f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ReinforceLearning_girdworld_and_dynamicProgramming.py</StartupFile>
+    <StartupFile>PolicyIteration.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,10 @@
     <Compile Include="environment.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ReinforceLearning_girdworld_and_dynamicProgramming.py" />
+    <Compile Include="PolicyIteration.py" />
+    <Compile Include="ValueIteration.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
