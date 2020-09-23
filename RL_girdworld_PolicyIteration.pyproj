@@ -3,13 +3,15 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0d64e2d2-9040-4aa2-92ed-93feed16961f</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>PolicyIteration.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>ReinforceLearning_girdworld_and_dynamicProgramming</Name>
+    <Name>RL_girdworld_PolicyIteration</Name>
     <RootNamespace>ReinforceLearning_girdworld_and_dynamicProgramming</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -25,9 +27,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PolicyIteration.py" />
-    <Compile Include="ValueIteration.py">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ReinforceLearning_girdworld_and_dynamicProgramming", "ReinforceLearning_girdworld_and_dynamicProgramming.pyproj", "{0D64E2D2-9040-4AA2-92ED-93FEED16961F}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RL_girdworld_PolicyIteration", "RL_girdworld_PolicyIteration.pyproj", "{0D64E2D2-9040-4AA2-92ED-93FEED16961F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
